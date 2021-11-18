@@ -3,6 +3,7 @@
   <head>
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css">
   </head>
   <body>
     <div id="app">
@@ -28,8 +29,16 @@
       <input type="text" placeholder="くるくるしない" />
       <button id="nosubmitButton" type="submit">送信</button>
     </form>
-      
-      <script src="src/01index.js"></script>
+    <div id="propagationParent" class="propagationParent">
+      <div id="propagationChild" class="propagationChild">
+      </div>
+    </div>
+    <div id="parent" class="parent">
+        <div id="child" class="child">
+        </div>
+    </div>
+  
+    <script src="src/01index.js"></script>
     <script src="src/02bunkatudainyu.js"></script>
     <script src="src/03defalut.js"></script>
     <script src="src/04spread.js"></script>
@@ -39,5 +48,6 @@
     <script src="src/08class.js"></script>
     <script src="src/09dom.js"></script>
     <script src="src/10event.js"></script>
+    <script src="src/11propagation.js"></script>
   </body>
 </html>

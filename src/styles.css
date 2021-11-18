@@ -1,3 +1,17 @@
 body {
   font-family: sans-serif;
 }
+.propagationParent,
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin: 10px;
+}
+.propagationChild,
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  transform: translate(50%, 50%);
+}
